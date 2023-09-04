@@ -23,6 +23,7 @@ const {isOpen, onOpen,onClose} = useDisclosure();
    top={"4"}
    left={"4"}
    colorScheme='purple'
+   zIndex={'overlay'}
    padding={"0"}
    width={'10'}
    h={'10'}
