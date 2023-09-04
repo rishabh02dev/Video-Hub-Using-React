@@ -45,21 +45,21 @@ const MyCarousel = () =>{
     <Carousel autoPlay infiniteLoop interval={1000} showStatus = {false} showThumbs = {false} showArrows = {false}
     >
         <Box w={"full"} h={"100vh"}>
-           <Image src= {img1}/>
+           <Image src= {img1} height={"full"} w={"full"} objectFit={"cover"}/>
            <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>Watch the Future</Heading>
         </Box>
 
         <Box w={"full"} h={"100vh"}>
-           <Image src= {img2}/>
+           <Image src= {img2}  height={"full"} w={"full"} objectFit={"cover"} />
            <Heading bgColor={'whiteAlpha.800'} color={'black'} {...headingOptions} >Future is Gaming</Heading>
         </Box>
 
         <Box w={"full"} h={"100vh"}>
-           <Image src= {img3}/>
+           <Image src= {img3}  height={"full"} w={"full"} objectFit={"cover"} />
            <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions} >Gaming on Console</Heading>
         </Box>
         <Box w={"full"} h={"100vh"}>
-           <Image src= {img4}/>
+           <Image src= {img4}  height={"full"} w={"full"} objectFit={"cover"} />
            <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions} >Night life is Cool</Heading>
         </Box>
 
